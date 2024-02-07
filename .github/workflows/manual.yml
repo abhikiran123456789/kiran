@@ -3,7 +3,7 @@ name: CICD for Youtube
 on:
   push:
     branches:
-        - main
+        - final 
  
 jobs:
   build:
@@ -42,5 +42,5 @@ jobs:
           script: |
               
                cd ~/CICD
-               git pull origin main
+               git pull origin final 
                
